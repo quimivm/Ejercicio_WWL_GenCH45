@@ -1,0 +1,25 @@
+.navbar {
+    padding: 2rem;
+    background-color: #b6b6b6b0;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;  
+}
+
+body{
+    background-color: rgb(130, 166, 128);
+}
+
+h1,h3,h4{
+    background-color: aquamarine;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    height: 150px;
+}

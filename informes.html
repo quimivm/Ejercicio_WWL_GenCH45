@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div>
+        <button> 
+            <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+        </button>
+        <button>
+            <a class="nav-link" href="visita.html">Visita</a>
+        </button>
+        <button>
+            <a class="nav-link" href="informes.html">Informes</a>
+        </button>
+    </div>
+
+<h1>¡Déjanos tus datos y nosotros te contactaremos!</h1>
+
+<p>
+    Si quieres más informes del lugar, quisieras una visita guiada, o en general quieres más informes de la ciudad, ¡escríbenos!
+</p>
+
+<form action="script.js" method="post">
+    <label for="name_imput">Nombre (es opcional ponerlo completo):</label>
+    <input type="text" name="nombre" id="name_input" placeholder="Ej. Juan Osorio" required>
+    <br>
+    <label for="number_imput">Número de teléfono: </label>
+    <input type="tel" name="numero" id="number_input" placeholder="Ej. +52 55 55 55 55 55" required>
+    <br>                                                                                                                
+    <label for="mail_input">Correo electrónico: </label>
+    <input type="email" name="correoElectronico" id="mail_input" placeholder="ejemplo@dominio.com" required>
+    <br>
+    <label for="mensaje">Escribe tu mensaje:</label>
+    <textarea name="mensaje" id="message_input" maxlength="1000" placeholder="Escríbenos tu mensaje en este espacio. Máximo 1000 caracteres." required></textarea>
+    <br>
+    <input type="submit">
+    <input type="reset" >
+    <br>
+</form>
+
+</body>
+</html>
